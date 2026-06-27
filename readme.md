@@ -6,16 +6,12 @@ The package spawns the MRVK robot inside a Gazebo world, optionally fuses odomet
 
 ---
 
-## Features
+## Sensors
 
 - **2D LiDAR** — modelled after the *Hokuyo UTM-30LX*
 - **RGB-D camera** — modelled after the *Microsoft Kinect v2*
 - **IMU** — modelled after the *ADIS 16250*
 - **Wheel odometry** from the differential drive controller
-- **EKF sensor fusion** (linear velocity from wheel odometry + yaw rate from the IMU) via `robot_localization`
-- **Two selectable worlds**: a simple geometric playground and a warehouse environment
-- **Teleoperation** via keyboard or joystick
-- **Gazebo ⇄ ROS 2 bridge** through `ros_gz_bridge` with a YAML topic configuration
 
 ---
 
