@@ -61,6 +61,8 @@ The EKF runs on top of the `robot_localization` package and fuses:
 The fused estimate is published as the `odom → base_link` transform and on the `/odometry/filtered` topic. Parameters can be configured in `config/ekf.yaml`.
 
 ---
+### Notes
+- plugins for LiDAR, RGB-D camera and IMU are in world .sdf files, so if you want to change the simulation world, you must also include plugins in the file.
 ### Known bugs
 
 - LiDAR visualisation
